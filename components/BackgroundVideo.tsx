@@ -1,4 +1,3 @@
-// components/BackgroundVideo.tsx
 import React from "react";
 
 const BackgroundVideo: React.FC = () => {
