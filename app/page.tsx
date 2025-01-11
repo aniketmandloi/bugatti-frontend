@@ -20,9 +20,10 @@ export default function Home() {
             ETERNITY
           </h1>
           <Button
-            className="my-8 border-white bg-transparent rounded-none text-white border-2 px-8 py-4 hover:border-slate-200 hover:text-slate-200 hover:bg-transparent"
+            className="mt-8 border-white bg-transparent rounded-none text-white px-8 py-4 hover:border-slate-200 hover:text-slate-200 hover:bg-transparent"
             variant="outline"
             size="lg"
+            style={{ padding: "25px 40px", letterSpacing: "1px" }}
           >
             DISCOVER THE BUGATTI TOURBILLON
           </Button>
@@ -52,21 +53,33 @@ export default function Home() {
 
         {/* Text Content */}
         <div className="flex flex-col absolute top-0 left-0 right-0 bottom-0 items-center justify-center z-10 text-center px-4 sm:px-0">
-          <h2 className="text-6xl text-white font-bold">
+          <h2 className="text-4xl text-white">
             A RECORD-BREAKING FORCE OF NATURE
           </h2>
           <p className="text-white text-lg mt-4">
             Setting a new benchmark at 453.91 km/h. A triumph of passion,
-            precision, and performance.
+            precision, <br />
+            and performance.
           </p>
           <Button
-            className="mt-8 border-white bg-transparent rounded-none text-white border-2 px-8 py-4 hover:border-slate-200 hover:text-slate-200 hover:bg-transparent"
+            className="mt-8 border-white bg-transparent rounded-none text-white px-8 py-4 hover:border-slate-200 hover:text-slate-200 hover:bg-transparent"
             variant="outline"
             size="lg"
+            style={{ padding: "25px 40px", letterSpacing: "1px" }}
           >
             WATCH THE RECORD
           </Button>
         </div>
+      </div>
+
+      {/* La Maison Bugatti Section */}
+      <div className="relative bg-black text-white py-20 text-center">
+        <h2 className="text-5xl font-bold mt-24">LA MAISON BUGATTI</h2>
+        <p className="text-lg mt-4 max-w-3xl mx-auto">
+          Since 1909, the people at BUGATTI Automobiles create incomparable
+          products and <br /> experiences by pushing the limits of aesthetics
+          and dynamics.
+        </p>
       </div>
     </div>
   );
